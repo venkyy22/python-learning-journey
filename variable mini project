@@ -1,0 +1,8 @@
+print("======== PROFILE CARD =======")
+print("name : snehal")
+print("age : 22")
+print("gpa : 9.9")
+print("city : hyderabad")
+print("phone : 789852")
+print("employed : True")
+print("================================")
