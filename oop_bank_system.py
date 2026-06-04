@@ -3,8 +3,7 @@ class BankAccount:
         self.account_holder = account_holder
         self.balance = balance
 
-    def deposit(self):
-        amount = 500
+    def deposit(self,amount):
         self.balance += amount
         print(f"The new balance is {self.balance}")
 
@@ -21,5 +20,5 @@ class BankAccount:
 
 a = BankAccount("Kumar", 2000)
 a.deposit(500)
-a.withdraw()
+a.withdraw(200)
 a.check_balance()
